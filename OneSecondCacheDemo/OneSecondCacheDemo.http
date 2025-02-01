@@ -1,0 +1,7 @@
+@CachingDemo_HostAddress = https://localhost:7021
+
+GET {{CachingDemo_HostAddress}}/currencies/no-cache
+
+###
+
+GET {{CachingDemo_HostAddress}}/currencies/in-memory-cache
